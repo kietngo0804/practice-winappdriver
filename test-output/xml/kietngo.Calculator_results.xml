@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGTest-3f1726e5-e6c7-4ed0-8e9a-12261f52a02f"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.951">
+    <properties></properties>
+
+
+
+            <testcase
+                name="TestAddFunction"
+                time="2.002"
+                classname="kietngo.Calculator">
+            </testcase>
+            <testcase
+                name="TestMultiplyFunction"
+                time="1.949"
+                classname="kietngo.Calculator">
+            </testcase>
+</testsuite>
