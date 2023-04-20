@@ -2,7 +2,7 @@ package kietngo.UFS.pages;
 
 import org.openqa.selenium.WebElement;
 import io.appium.java_client.windows.WindowsDriver;
-import kietngo.UFS.testdata.Login;
+import kietngo.UFS.testdata.*;
 
 public class LoginPage extends BasePage{
 
@@ -11,6 +11,7 @@ public class LoginPage extends BasePage{
     }
 
     Login login = new Login();
+    UFSWorkspace ufs = new UFSWorkspace();
 
     //Methods
     public void inputLoginData(String userID, String password, String language, String server) {
@@ -26,7 +27,7 @@ public class LoginPage extends BasePage{
 	}
 
     public void verifyLoginSuccessfully() {
-        this.verifyElementIsVisibleByXPath(login.TXT_AIRCUSTOMER);
+        this.verifyElementIsVisibleByXPath(ufs.TXT_AIRCUSTOMER);
     }
 
 }

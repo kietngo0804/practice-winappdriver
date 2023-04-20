@@ -2,6 +2,7 @@ package kietngo.UFS.pages;
 
 import org.openqa.selenium.WebElement;
 import io.appium.java_client.windows.WindowsDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class BasePage {
 
@@ -26,6 +27,13 @@ public class BasePage {
         buttonElement.click();
     }
 	
+    public void doubleClickButtonByXPath(String buttonXpath) {
+        WebElement ele = driver.findElementByXPath(buttonXpath);
+        Actions action = new Actions(driver);
+        action.doubleClick(ele).build().perform();
+
+    }
+
 	public void inputTextByName(String ele_name, String text_value) {
     	WebElement ele = driver.findElementByName(ele_name);
         ele.sendKeys(text_value);

@@ -10,7 +10,7 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import io.appium.java_client.windows.WindowsDriver;
-import kietngo.UFS.pages.LoginPage;
+import kietngo.UFS.pages.*;
 
 public class VerifyLogin {
 

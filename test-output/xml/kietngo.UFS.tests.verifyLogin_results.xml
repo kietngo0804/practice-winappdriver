@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestNGTest-93800ac8-d85f-4dfe-9eb2-64dee5a776e3"
-           tests="1"
-           failures="0"
+<testsuite name="TestNGTest-cbb68962-41b4-4bed-bdd8-fa85f21c6a46"
+           tests="2"
+           failures="1"
            errors="0"
            skipped="0"
-           time="23.345">
+           time="27.879">
     <properties></properties>
 
+            <testcase
+                name="closeDown"
+                time="5.019"
+                classname="kietngo.UFS.tests.VerifyLogin">
+
+            <failure type="org.openqa.selenium.NoSuchSessionException" message="Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;VIETNAM-5034&apos;, ip: &apos;192.168.101.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver">
+                <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIETNAM-5034', ip: '192.168.101.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+                org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:460)kietngo.UFS.pages.AirCustomerWaybillPage.ExitUFS(AirCustomerWaybillPage.java:21)kietngo.UFS.tests.VerifyLogin.closeDown(VerifyLogin.java:41)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:829)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:437)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)org.testng.SuiteRunner.run(SuiteRunner.java:330)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)org.testng.TestNG.runSuitesLocally(TestNG.java:1176)org.testng.TestNG.runSuites(TestNG.java:1099)org.testng.TestNG.run(TestNG.java:1067)com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45)com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32)com.microsoft.java.test.runner.Launcher.main(Launcher.java:57)
+]]>
+            </failure>
+    </testcase>
 
 
             <testcase
                 name="TestLogin"
-                time="23.345"
+                time="22.860"
                 classname="kietngo.UFS.tests.VerifyLogin">
             </testcase>
 </testsuite>
