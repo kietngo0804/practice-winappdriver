@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGTest-93800ac8-d85f-4dfe-9eb2-64dee5a776e3"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.345">
+    <properties></properties>
+
+
+
+            <testcase
+                name="TestLogin"
+                time="23.345"
+                classname="kietngo.UFS.tests.VerifyLogin">
+            </testcase>
+</testsuite>
